@@ -13,4 +13,9 @@
       <module name="SnowDev" target="15" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SnowDev" options="--add-exports java.base/java=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>
